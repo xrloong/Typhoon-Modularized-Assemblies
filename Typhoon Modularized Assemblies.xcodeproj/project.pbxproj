@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B1E0A3623E2899A00F0136A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E0A3523E2899A00F0136A /* AppDelegate.m */; };
+		3B1E0A3923E2899A00F0136A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E0A3823E2899A00F0136A /* SceneDelegate.m */; };
+		3B1E0A3C23E2899A00F0136A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E0A3B23E2899A00F0136A /* ViewController.m */; };
+		3B1E0A3F23E2899A00F0136A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1E0A3D23E2899A00F0136A /* Main.storyboard */; };
+		3B1E0A4123E2899B00F0136A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1E0A4023E2899B00F0136A /* Assets.xcassets */; };
+		3B1E0A4423E2899B00F0136A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1E0A4223E2899B00F0136A /* LaunchScreen.storyboard */; };
+		3B1E0A4723E2899B00F0136A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E0A4623E2899B00F0136A /* main.m */; };
+		3B1E0A5023E28F5900F0136A /* AppAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E0A4F23E28F5900F0136A /* AppAssembly.m */; };
+		3B1E0A5323E2925500F0136A /* ApplicationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E0A5223E2925500F0136A /* ApplicationHelper.m */; };
+		3B1E0A5623E2957300F0136A /* ModularAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E0A5523E2957300F0136A /* ModularAssembly.m */; };
+		3BFA5C2423E7D3940071DFF6 /* AnotherHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA5C2323E7D3940071DFF6 /* AnotherHelper.m */; };
+		D20325BF11F56963E319F58E /* libPods-Typhoon Modularized Assemblies.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8FF39F0EE6879D4DFF320B /* libPods-Typhoon Modularized Assemblies.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B1E0A3123E2899A00F0136A /* Typhoon Modularized Assemblies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Typhoon Modularized Assemblies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1E0A3423E2899A00F0136A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B1E0A3523E2899A00F0136A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B1E0A3723E2899A00F0136A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3B1E0A3823E2899A00F0136A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3B1E0A3A23E2899A00F0136A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B1E0A3B23E2899A00F0136A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B1E0A3E23E2899A00F0136A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B1E0A4023E2899B00F0136A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B1E0A4323E2899B00F0136A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B1E0A4523E2899B00F0136A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B1E0A4623E2899B00F0136A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B1E0A4E23E28F5900F0136A /* AppAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppAssembly.h; sourceTree = "<group>"; };
+		3B1E0A4F23E28F5900F0136A /* AppAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppAssembly.m; sourceTree = "<group>"; };
+		3B1E0A5123E2925500F0136A /* ApplicationHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationHelper.h; sourceTree = "<group>"; };
+		3B1E0A5223E2925500F0136A /* ApplicationHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationHelper.m; sourceTree = "<group>"; };
+		3B1E0A5423E2957300F0136A /* ModularAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModularAssembly.h; sourceTree = "<group>"; };
+		3B1E0A5523E2957300F0136A /* ModularAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModularAssembly.m; sourceTree = "<group>"; };
+		3BFA5C2223E7D3940071DFF6 /* AnotherHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnotherHelper.h; sourceTree = "<group>"; };
+		3BFA5C2323E7D3940071DFF6 /* AnotherHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnotherHelper.m; sourceTree = "<group>"; };
+		4616DB6424A2845D0E19FBEB /* Pods-Typhoon Modularized Assemblies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Typhoon Modularized Assemblies.debug.xcconfig"; path = "Target Support Files/Pods-Typhoon Modularized Assemblies/Pods-Typhoon Modularized Assemblies.debug.xcconfig"; sourceTree = "<group>"; };
+		741BDFEF44C496F8D88390A4 /* Pods-Typhoon Modularized Assemblies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Typhoon Modularized Assemblies.release.xcconfig"; path = "Target Support Files/Pods-Typhoon Modularized Assemblies/Pods-Typhoon Modularized Assemblies.release.xcconfig"; sourceTree = "<group>"; };
+		FB8FF39F0EE6879D4DFF320B /* libPods-Typhoon Modularized Assemblies.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Typhoon Modularized Assemblies.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B1E0A2E23E2899A00F0136A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20325BF11F56963E319F58E /* libPods-Typhoon Modularized Assemblies.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1E0A2823E2899900F0136A = {
+			isa = PBXGroup;
+			children = (
+				3B1E0A3323E2899A00F0136A /* Typhoon Modularized Assemblies */,
+				3B1E0A3223E2899A00F0136A /* Products */,
+				7EDE32BFD7E3618935FA9DD7 /* Pods */,
+				3CEB0FB5C3883E5C43156371 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B1E0A3223E2899A00F0136A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B1E0A3123E2899A00F0136A /* Typhoon Modularized Assemblies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B1E0A3323E2899A00F0136A /* Typhoon Modularized Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				3B1E0A4D23E28D6800F0136A /* Injection */,
+				3BFA5C2023E7D3330071DFF6 /* Model */,
+				3B1E0A3423E2899A00F0136A /* AppDelegate.h */,
+				3B1E0A3523E2899A00F0136A /* AppDelegate.m */,
+				3B1E0A3723E2899A00F0136A /* SceneDelegate.h */,
+				3B1E0A3823E2899A00F0136A /* SceneDelegate.m */,
+				3B1E0A3A23E2899A00F0136A /* ViewController.h */,
+				3B1E0A3B23E2899A00F0136A /* ViewController.m */,
+				3B1E0A3D23E2899A00F0136A /* Main.storyboard */,
+				3B1E0A4023E2899B00F0136A /* Assets.xcassets */,
+				3B1E0A4223E2899B00F0136A /* LaunchScreen.storyboard */,
+				3B1E0A4523E2899B00F0136A /* Info.plist */,
+				3B1E0A4623E2899B00F0136A /* main.m */,
+			);
+			path = "Typhoon Modularized Assemblies";
+			sourceTree = "<group>";
+		};
+		3B1E0A4D23E28D6800F0136A /* Injection */ = {
+			isa = PBXGroup;
+			children = (
+				3B1E0A4E23E28F5900F0136A /* AppAssembly.h */,
+				3B1E0A4F23E28F5900F0136A /* AppAssembly.m */,
+				3B1E0A5423E2957300F0136A /* ModularAssembly.h */,
+				3B1E0A5523E2957300F0136A /* ModularAssembly.m */,
+			);
+			path = Injection;
+			sourceTree = "<group>";
+		};
+		3BFA5C2023E7D3330071DFF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B1E0A5123E2925500F0136A /* ApplicationHelper.h */,
+				3B1E0A5223E2925500F0136A /* ApplicationHelper.m */,
+				3BFA5C2223E7D3940071DFF6 /* AnotherHelper.h */,
+				3BFA5C2323E7D3940071DFF6 /* AnotherHelper.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CEB0FB5C3883E5C43156371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB8FF39F0EE6879D4DFF320B /* libPods-Typhoon Modularized Assemblies.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EDE32BFD7E3618935FA9DD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4616DB6424A2845D0E19FBEB /* Pods-Typhoon Modularized Assemblies.debug.xcconfig */,
+				741BDFEF44C496F8D88390A4 /* Pods-Typhoon Modularized Assemblies.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B1E0A3023E2899A00F0136A /* Typhoon Modularized Assemblies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1E0A4A23E2899B00F0136A /* Build configuration list for PBXNativeTarget "Typhoon Modularized Assemblies" */;
+			buildPhases = (
+				7FB9A26E8E6A6A33D5B9810E /* [CP] Check Pods Manifest.lock */,
+				3B1E0A2D23E2899A00F0136A /* Sources */,
+				3B1E0A2E23E2899A00F0136A /* Frameworks */,
+				3B1E0A2F23E2899A00F0136A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Typhoon Modularized Assemblies";
+			productName = "Typhoon Modularized Assemblies";
+			productReference = 3B1E0A3123E2899A00F0136A /* Typhoon Modularized Assemblies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B1E0A2923E2899900F0136A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					3B1E0A3023E2899A00F0136A = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 3B1E0A2C23E2899900F0136A /* Build configuration list for PBXProject "Typhoon Modularized Assemblies" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B1E0A2823E2899900F0136A;
+			productRefGroup = 3B1E0A3223E2899A00F0136A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B1E0A3023E2899A00F0136A /* Typhoon Modularized Assemblies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B1E0A2F23E2899A00F0136A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1E0A4423E2899B00F0136A /* LaunchScreen.storyboard in Resources */,
+				3B1E0A4123E2899B00F0136A /* Assets.xcassets in Resources */,
+				3B1E0A3F23E2899A00F0136A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FB9A26E8E6A6A33D5B9810E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Typhoon Modularized Assemblies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B1E0A2D23E2899A00F0136A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1E0A5623E2957300F0136A /* ModularAssembly.m in Sources */,
+				3B1E0A5323E2925500F0136A /* ApplicationHelper.m in Sources */,
+				3B1E0A3C23E2899A00F0136A /* ViewController.m in Sources */,
+				3BFA5C2423E7D3940071DFF6 /* AnotherHelper.m in Sources */,
+				3B1E0A5023E28F5900F0136A /* AppAssembly.m in Sources */,
+				3B1E0A3623E2899A00F0136A /* AppDelegate.m in Sources */,
+				3B1E0A4723E2899B00F0136A /* main.m in Sources */,
+				3B1E0A3923E2899A00F0136A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B1E0A3D23E2899A00F0136A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1E0A3E23E2899A00F0136A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B1E0A4223E2899B00F0136A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1E0A4323E2899B00F0136A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B1E0A4823E2899B00F0136A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B1E0A4923E2899B00F0136A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B1E0A4B23E2899B00F0136A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4616DB6424A2845D0E19FBEB /* Pods-Typhoon Modularized Assemblies.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X85BAK35Y4;
+				INFOPLIST_FILE = "Typhoon Modularized Assemblies/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "idv.xrloong.Typhoon-Modularized-Assemblies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "DS Wildcard Profile";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B1E0A4C23E2899B00F0136A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741BDFEF44C496F8D88390A4 /* Pods-Typhoon Modularized Assemblies.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X85BAK35Y4;
+				INFOPLIST_FILE = "Typhoon Modularized Assemblies/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "idv.xrloong.Typhoon-Modularized-Assemblies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "DS Wildcard Profile";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B1E0A2C23E2899900F0136A /* Build configuration list for PBXProject "Typhoon Modularized Assemblies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1E0A4823E2899B00F0136A /* Debug */,
+				3B1E0A4923E2899B00F0136A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1E0A4A23E2899B00F0136A /* Build configuration list for PBXNativeTarget "Typhoon Modularized Assemblies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1E0A4B23E2899B00F0136A /* Debug */,
+				3B1E0A4C23E2899B00F0136A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B1E0A2923E2899900F0136A /* Project object */;
+}
